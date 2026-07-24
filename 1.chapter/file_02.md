@@ -1,0 +1,3 @@
+Q2. Explain React's diffing/reconciliation algorithm and its heuristics?
+
+A2. React's diffing algorithm compares the old and new Virtual DOM trees to find differences. It uses smart rules like: if element types are different, it replaces the whole tree; if they're the same, it updates only attributes. For lists, React uses keys to identify which items changed, moved, or were added/removed. This makes updates very efficient.
